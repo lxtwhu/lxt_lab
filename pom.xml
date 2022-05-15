@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<!--组名，须为 com.lxt-->
+    <groupId>com.lxt</groupId>
+<!--父项目名，对应于一个 bugzilla名-->
+    <artifactId>lxt_lab</artifactId>
+<!--版本号，参照maven规范-->
+    <version>1.0.0</version>
+<!--项目类型，父项目须为pom类型-->
+    <packaging>pom</packaging>
+<!--这个父是必须的, 是室内规范实现的前提, 提供通用的项目能力-->
+    <parent>
+        <groupId>com.lxt</groupId>
+        <artifactId>skeleton</artifactId>
+        <version>1.0.0</version>
+    </parent>
+<!--一些公共的变量-->
+    <properties>
+        <version.common-dependencies>1.0.0</version.common-dependencies>
+        <!--项目包装工具，如需升级版本，可设置；默认版本在skeleton项目中可见-->
+<!--        <version.publish-wrapper/>-->
+<!--AC，如需升级版本，可设置；默认版本在skeleton项目中可见-->
+<!--        <version.activity_container/>-->
+<!--AC MONITOR插件，如需升级版本，可设置；默认版本在skeleton项目中可见-->
+<!--        <version.acplg-monitor/>-->
+    </properties>
+<!--一些公关的依赖管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.3.9.RELEASE</version>
+<!--                <version>2.2.4.RELEASE</version>-->
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+<!--子模块管理：若只需编译部分模块，宜使用 -pl -am等参数，无需在此增删-->
+  <modules>
+<!--打包聚合模块 build必须放在最后-->
+<!--    <module>build</module>-->
+    <module>zhian-process-vulner</module>
+    <module>sso-rely-party</module>
+      <module>spring-web</module>
+    <module>quartz-scheduler</module>
+      <module>build</module>
+    <module>calculate-tuple</module>
+  </modules>
+</project>

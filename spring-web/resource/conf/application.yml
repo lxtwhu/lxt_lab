@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-web
+#  mvc:
+#    contentnegotiation:
+#      media-types:
+#        pac: application/x-ns-proxy-autoconfig
+

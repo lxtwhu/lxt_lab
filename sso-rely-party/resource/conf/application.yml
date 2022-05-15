@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sso-rely-party
+
+  security: # https://docs.spring.io/spring-security/site/docs/current/reference/html5
+    oauth2:
+      resourceserver: # https://docs.spring.io/spring-security/site/docs/current/reference/html5/#webflux-oauth2-resource-server
+        jwt:
+          issuer-uri: http://172.21.72.17:8088

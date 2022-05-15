@@ -1,0 +1,193 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_openid"
+    },
+    {
+      "authority": "SCOPE_profile"
+    },
+    {
+      "authority": "SCOPE_bdd"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ild3QjZILXFYQkZzQVpVQWZvb2FZV3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MzEwNjc3ODMsImV4cCI6MTYzMTA3NDk4MywiaXNzIjoiaHR0cDovLzE3Mi4yMS43Mi4xNzo4MDg4IiwiYXVkIjpbImh0dHA6Ly8xNzIuMjEuNzIuMTc6ODA4OC9yZXNvdXJjZXMiLCJiZGQiXSwiY2xpZW50X2lkIjoiYmRkX2QiLCJzdWIiOiJ4dGxpIiwiYXV0aF90aW1lIjoxNjMxMDY1MDYwLCJpZHAiOiJsb2NhbCIsIm5hbWUiOiLmnY7mmZPlpKkiLCJmYW1pbHlfbmFtZSI6IuadjiIsImdpdmVuX25hbWUiOiLmmZPlpKkiLCJPQUlkIjoiMzAyNjUiLCJPQURlcGFydElkIjoiMTQ5NCIsIk9BT3JnSWQiOiI5NDMyIiwiT0FEZXBhcnROYW1lIjoi5oqA5pyv5byA5Y-R5Lit5b-DIiwiT0FPcmdOYW1lIjoi5pWw5o2u5pyN5Yqh5Zui6ZifIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImJkZCJdLCJhbXIiOlsicHdkIl19.NEHbYmDV4gQg0ZkGXglBxyzUERGpGoCuvxydlr5ROXgtaSpFCvHUjuUFRiqnR36mQFE_PZiEqaMbnZquYurFXSM6qPVJGGoIsl1RpJy8gJyQRwzy22lS_WDYRKgbZz-5FVWVHY6lVHmrC5c6MEP9vr3yF0HW0Q6q-nFgluvRp8QKKeILEOsGFNrnBViCnNg7EMgCsHPaXQ_ZFD_45Nuwiv_6IMdmIhUzr7nPL7K8EvzlO3Opg58x3tMT8LgKUa33JqfzjfT739x1MGDjV7Bz4flXcOVR7cmTZPGi7ewFuB4DgrBhE_Z_PXVZKWePt5qVjTeddq9k7eJHSQUFMrAZ3w",
+    "issuedAt": "2021-09-08T04:23:02Z",
+    "expiresAt": "2021-09-08T04:23:03Z",
+    "headers": {
+      "kid": "WwB6H-qXBFsAZUAfooaYWw",
+      "typ": "at+jwt",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "xtli",
+      "OADepartName": "技术开发中心",
+      "amr": [
+        "pwd"
+      ],
+      "iss": "http://172.21.72.17:8088",
+      "OAOrgId": "9432",
+      "OAId": "30265",
+      "given_name": "晓天",
+      "client_id": "bdd_d",
+      "aud": [
+        "http://172.21.72.17:8088/resources",
+        "bdd"
+      ],
+      "OAOrgName": "数据服务团队",
+      "nbf": "2021-09-08T02:23:03Z",
+      "idp": "local",
+      "auth_time": 1631065060,
+      "scope": [
+        "openid",
+        "profile",
+        "bdd"
+      ],
+      "name": "李晓天",
+      "OADepartId": "1494",
+      "exp": "2021-09-08T04:23:03Z",
+      "family_name": "李",
+      "iat": "2021-09-08T04:23:02Z"
+    },
+    "id": null,
+    "subject": "xtli",
+    "notBefore": "2021-09-08T02:23:03Z",
+    "audience": [
+      "http://172.21.72.17:8088/resources",
+      "bdd"
+    ],
+    "issuer": "http://172.21.72.17:8088"
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ild3QjZILXFYQkZzQVpVQWZvb2FZV3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MzEwNjc3ODMsImV4cCI6MTYzMTA3NDk4MywiaXNzIjoiaHR0cDovLzE3Mi4yMS43Mi4xNzo4MDg4IiwiYXVkIjpbImh0dHA6Ly8xNzIuMjEuNzIuMTc6ODA4OC9yZXNvdXJjZXMiLCJiZGQiXSwiY2xpZW50X2lkIjoiYmRkX2QiLCJzdWIiOiJ4dGxpIiwiYXV0aF90aW1lIjoxNjMxMDY1MDYwLCJpZHAiOiJsb2NhbCIsIm5hbWUiOiLmnY7mmZPlpKkiLCJmYW1pbHlfbmFtZSI6IuadjiIsImdpdmVuX25hbWUiOiLmmZPlpKkiLCJPQUlkIjoiMzAyNjUiLCJPQURlcGFydElkIjoiMTQ5NCIsIk9BT3JnSWQiOiI5NDMyIiwiT0FEZXBhcnROYW1lIjoi5oqA5pyv5byA5Y-R5Lit5b-DIiwiT0FPcmdOYW1lIjoi5pWw5o2u5pyN5Yqh5Zui6ZifIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImJkZCJdLCJhbXIiOlsicHdkIl19.NEHbYmDV4gQg0ZkGXglBxyzUERGpGoCuvxydlr5ROXgtaSpFCvHUjuUFRiqnR36mQFE_PZiEqaMbnZquYurFXSM6qPVJGGoIsl1RpJy8gJyQRwzy22lS_WDYRKgbZz-5FVWVHY6lVHmrC5c6MEP9vr3yF0HW0Q6q-nFgluvRp8QKKeILEOsGFNrnBViCnNg7EMgCsHPaXQ_ZFD_45Nuwiv_6IMdmIhUzr7nPL7K8EvzlO3Opg58x3tMT8LgKUa33JqfzjfT739x1MGDjV7Bz4flXcOVR7cmTZPGi7ewFuB4DgrBhE_Z_PXVZKWePt5qVjTeddq9k7eJHSQUFMrAZ3w",
+    "issuedAt": "2021-09-08T04:23:02Z",
+    "expiresAt": "2021-09-08T04:23:03Z",
+    "headers": {
+      "kid": "WwB6H-qXBFsAZUAfooaYWw",
+      "typ": "at+jwt",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "xtli",
+      "OADepartName": "技术开发中心",
+      "amr": [
+        "pwd"
+      ],
+      "iss": "http://172.21.72.17:8088",
+      "OAOrgId": "9432",
+      "OAId": "30265",
+      "given_name": "晓天",
+      "client_id": "bdd_d",
+      "aud": [
+        "http://172.21.72.17:8088/resources",
+        "bdd"
+      ],
+      "OAOrgName": "数据服务团队",
+      "nbf": "2021-09-08T02:23:03Z",
+      "idp": "local",
+      "auth_time": 1631065060,
+      "scope": [
+        "openid",
+        "profile",
+        "bdd"
+      ],
+      "name": "李晓天",
+      "OADepartId": "1494",
+      "exp": "2021-09-08T04:23:03Z",
+      "family_name": "李",
+      "iat": "2021-09-08T04:23:02Z"
+    },
+    "id": null,
+    "subject": "xtli",
+    "notBefore": "2021-09-08T02:23:03Z",
+    "audience": [
+      "http://172.21.72.17:8088/resources",
+      "bdd"
+    ],
+    "issuer": "http://172.21.72.17:8088"
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ild3QjZILXFYQkZzQVpVQWZvb2FZV3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MzEwNjc3ODMsImV4cCI6MTYzMTA3NDk4MywiaXNzIjoiaHR0cDovLzE3Mi4yMS43Mi4xNzo4MDg4IiwiYXVkIjpbImh0dHA6Ly8xNzIuMjEuNzIuMTc6ODA4OC9yZXNvdXJjZXMiLCJiZGQiXSwiY2xpZW50X2lkIjoiYmRkX2QiLCJzdWIiOiJ4dGxpIiwiYXV0aF90aW1lIjoxNjMxMDY1MDYwLCJpZHAiOiJsb2NhbCIsIm5hbWUiOiLmnY7mmZPlpKkiLCJmYW1pbHlfbmFtZSI6IuadjiIsImdpdmVuX25hbWUiOiLmmZPlpKkiLCJPQUlkIjoiMzAyNjUiLCJPQURlcGFydElkIjoiMTQ5NCIsIk9BT3JnSWQiOiI5NDMyIiwiT0FEZXBhcnROYW1lIjoi5oqA5pyv5byA5Y-R5Lit5b-DIiwiT0FPcmdOYW1lIjoi5pWw5o2u5pyN5Yqh5Zui6ZifIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImJkZCJdLCJhbXIiOlsicHdkIl19.NEHbYmDV4gQg0ZkGXglBxyzUERGpGoCuvxydlr5ROXgtaSpFCvHUjuUFRiqnR36mQFE_PZiEqaMbnZquYurFXSM6qPVJGGoIsl1RpJy8gJyQRwzy22lS_WDYRKgbZz-5FVWVHY6lVHmrC5c6MEP9vr3yF0HW0Q6q-nFgluvRp8QKKeILEOsGFNrnBViCnNg7EMgCsHPaXQ_ZFD_45Nuwiv_6IMdmIhUzr7nPL7K8EvzlO3Opg58x3tMT8LgKUa33JqfzjfT739x1MGDjV7Bz4flXcOVR7cmTZPGi7ewFuB4DgrBhE_Z_PXVZKWePt5qVjTeddq9k7eJHSQUFMrAZ3w",
+    "issuedAt": "2021-09-08T04:23:02Z",
+    "expiresAt": "2021-09-08T04:23:03Z",
+    "headers": {
+      "kid": "WwB6H-qXBFsAZUAfooaYWw",
+      "typ": "at+jwt",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "xtli",
+      "OADepartName": "技术开发中心",
+      "amr": [
+        "pwd"
+      ],
+      "iss": "http://172.21.72.17:8088",
+      "OAOrgId": "9432",
+      "OAId": "30265",
+      "given_name": "晓天",
+      "client_id": "bdd_d",
+      "aud": [
+        "http://172.21.72.17:8088/resources",
+        "bdd"
+      ],
+      "OAOrgName": "数据服务团队",
+      "nbf": "2021-09-08T02:23:03Z",
+      "idp": "local",
+      "auth_time": 1631065060,
+      "scope": [
+        "openid",
+        "profile",
+        "bdd"
+      ],
+      "name": "李晓天",
+      "OADepartId": "1494",
+      "exp": "2021-09-08T04:23:03Z",
+      "family_name": "李",
+      "iat": "2021-09-08T04:23:02Z"
+    },
+    "id": null,
+    "subject": "xtli",
+    "notBefore": "2021-09-08T02:23:03Z",
+    "audience": [
+      "http://172.21.72.17:8088/resources",
+      "bdd"
+    ],
+    "issuer": "http://172.21.72.17:8088"
+  },
+  "name": "xtli",
+  "tokenAttributes": {
+    "sub": "xtli",
+    "OADepartName": "技术开发中心",
+    "amr": [
+      "pwd"
+    ],
+    "iss": "http://172.21.72.17:8088",
+    "OAOrgId": "9432",
+    "OAId": "30265",
+    "given_name": "晓天",
+    "client_id": "bdd_d",
+    "aud": [
+      "http://172.21.72.17:8088/resources",
+      "bdd"
+    ],
+    "OAOrgName": "数据服务团队",
+    "nbf": "2021-09-08T02:23:03Z",
+    "idp": "local",
+    "auth_time": 1631065060,
+    "scope": [
+      "openid",
+      "profile",
+      "bdd"
+    ],
+    "name": "李晓天",
+    "OADepartId": "1494",
+    "exp": "2021-09-08T04:23:03Z",
+    "family_name": "李",
+    "iat": "2021-09-08T04:23:02Z"
+  }
+}
